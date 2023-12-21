@@ -8,10 +8,12 @@ html, body {
 .logo-1, .logo-2, .logo-3 {
     height: 40px;
     width: 64px;
+    margin-left: 30px;
 }
 
 @media screen and (max-width: 640px) {
 
+   
     .box-sedans {
         background-color: #E28625;
         height: 442px;
@@ -36,21 +38,29 @@ html, body {
     }
     .text-sedans, .text-suvs, .text-luxury {
         max-width: 200px;
+        margin-left: 30px;
     }
     .text-btn1 {
         height: 25px;
         width: 83px;
         color: #E28625;
+        
     }
     .text-btn2 {
         height: 25px;
         width: 83px;
         color: #006971;
+        
     }
     .text-btn3 {
         height: 25px;
         width: 83px;
         color: #004140;
+        
     }
+    .main-title-sedans, .main-title-suvs, .main-title-luxury {
+        margin-left: 30px;
+    }
+    
 
 }
