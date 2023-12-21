@@ -2,7 +2,9 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
+.main-title-sedans, .main-title-suvs, .main-title-luxury, .text-sedans, .text-suvs, .text-luxury {
+    color: #F2F2F2;
+}
 
 @media screen and (max-width: 640px) {
 
@@ -20,6 +22,31 @@ html, body {
         background-color: #004140;
         height: 442px;
         width: 327px;
+    }
+    .btn {
+        height: 48px;
+        width: 146px;
+        background-color: #F2F2F2;
+        text-decoration: none;
+        border-radius: 15px;
+    }
+    .text-sedans, .text-suvs, .text-luxury {
+        max-width: 200px;
+    }
+    .text-btn1 {
+        height: 25px;
+        width: 83px;
+        color: #E28625;
+    }
+    .text-btn2 {
+        height: 25px;
+        width: 83px;
+        color: #006971;
+    }
+    .text-btn3 {
+        height: 25px;
+        width: 83px;
+        color: #004140;
     }
 
 }
