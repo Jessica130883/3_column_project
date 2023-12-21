@@ -5,6 +5,10 @@ html, body {
 .main-title-sedans, .main-title-suvs, .main-title-luxury, .text-sedans, .text-suvs, .text-luxury {
     color: #F2F2F2;
 }
+.logo-1, .logo-2, .logo-3 {
+    height: 40px;
+    width: 64px;
+}
 
 @media screen and (max-width: 640px) {
 
