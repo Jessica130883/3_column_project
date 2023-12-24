@@ -10,6 +10,15 @@ html, body {
     width: 64px;
     margin-left: 30px;
 }
+.box-sedans {
+    background-color: #E28625;
+}
+.box-suvs {
+    background-color: #006971;
+}
+.box-luxury {
+    background-color: #004140;
+}
 
 @media screen and (max-width: 640px) {
 
@@ -74,4 +83,27 @@ html, body {
         margin-top: 30px;
     }
 
+    @media screen and (min-width: 641px) {
+
+        .box-sedans {
+            background-color: #E28625;
+            height: 442px;
+            width: 327px;
+            border-radius: 15px 15px 0px 0px;
+            
+        }
+        .box-suvs {
+            background-color: #006971;
+            height: 442px;
+            width: 327px;
+            
+        }
+        .box-luxury {
+            background-color: #004140;
+            height: 442px;
+            width: 327px;
+            border-radius: 0px 0px 15px 15px;
+           
+        }
+    }
 }
