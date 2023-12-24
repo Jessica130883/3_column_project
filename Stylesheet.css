@@ -82,28 +82,49 @@ html, body {
     .logo-1, .logo-2, .logo-3 {
         margin-top: 30px;
     }
+       
+}
 
-    @media screen and (min-width: 641px) {
+@media screen and (min-width: 641px) {
 
-        .box-sedans {
-            background-color: #E28625;
-            height: 442px;
-            width: 327px;
-            border-radius: 15px 15px 0px 0px;
-            
-        }
-        .box-suvs {
-            background-color: #006971;
-            height: 442px;
-            width: 327px;
-            
-        }
-        .box-luxury {
-            background-color: #004140;
-            height: 442px;
-            width: 327px;
-            border-radius: 0px 0px 15px 15px;
-           
-        }
+    .box-sedans {
+         
+        height: 500px;
+        width: 307px;
+        border-radius: 15px 0 0 15px;
+       
     }
+    .box-suvs {
+          
+        height: 500px;
+        width: 307px;  
+    }
+    .box-luxury {
+         
+        height: 500px;
+        width: 307px;
+        border-radius: 0 15px 15px 0;
+    }
+    .logo-1, .logo-2, .logo-3 {
+        height: 40px;
+        width: 64px;
+    }
+    .main-title-sedans, .main-title-suvs, .main-title-luxury {
+        height: 48px;
+        width: 101px;
+    }
+    .text-sedans, .text-suvs, .text-luxury {
+        height: 125px;
+        width: 212px;
+    }
+
+.container {
+    display: grid;
+    grid-template-columns: 307px 307px 307px;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+
 }
