@@ -159,6 +159,27 @@ html, body {
     width: 83px;
     color: #004140;
 }
+#btn-1:hover {
+    background-color: #E28625;
+    border: 2px solid #F2F2F2;
+}
+.text-btn1:hover {
+    color: #F2F2F2;
+}
+#btn-2:hover {
+    background-color: #006971;
+    border: 2px solid #F2F2F2;
+}
+.text-btn2:hover {
+    color: #F2F2F2;
+}
+#btn-3:hover {
+    background-color: #004140;
+    border: 2px solid #F2F2F2;
+}
+.text-btn3:hover {
+    color: #F2F2F2;
+}
 
 
 }
