@@ -108,23 +108,58 @@ html, body {
     .logo-1, .logo-2, .logo-3 {
         height: 40px;
         width: 64px;
+        margin-top: 30px;
     }
     .main-title-sedans, .main-title-suvs, .main-title-luxury {
         height: 48px;
         width: 101px;
+        margin-left: 30px;
+        
     }
     .text-sedans, .text-suvs, .text-luxury {
         height: 125px;
         width: 212px;
+        margin-left: 30px;
     }
 
 .container {
     display: grid;
     grid-template-columns: 307px 307px 307px;
     margin: auto;
-    margin-top: 60px;
+    justify-content: center;
 }
-
+.btn {
+        
+    background-color: #F2F2F2;
+    text-decoration: none;
+    border-radius: 15px;
+}
+#btn-1:hover {
+    
+    border-radius: 1px solid #F2F2F2;
+}
+.div-btn {
+    margin-left: 30px;
+    height: 48px;
+    width: 146px;
+}
+.text-btn1 {
+    height: 25px;
+    width: 83px;
+    color: #E28625;
+    
+}
+.text-btn2 {
+    height: 25px;
+    width: 83px;
+    color: #006971;
+    
+}
+.text-btn3 {
+    height: 25px;
+    width: 83px;
+    color: #004140;
+}
 
 
 }
