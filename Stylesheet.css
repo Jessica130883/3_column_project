@@ -125,7 +125,6 @@ html, body {
 .container {
     display: grid;
     grid-template-columns: 307px 307px 307px;
-    margin: auto;
     justify-content: center;
 }
 .btn {
